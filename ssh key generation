@@ -1,0 +1,27 @@
+SSH key generation
+
+ssh-keygen -t rsa -b 4096 -C nikhil.lokhande@konverge.ai
+
+testkey
+ls | grep testkay
+
+cat testkey.pub
+
+pb.cpoy< ~/testkey.pub
+
+(copy paste into github acc - settings - ssh keys
+
+new ssh key
+paste it 
+and add key
+
+
+
+Adding ssh key to ssh agent
+
+eval "$(ssh-agent -s)"
+
+ssh-add -k ~/.ssh/id_rsa   -------------replace id_rsa with testkey if req.
+
+
+git push origin master.
